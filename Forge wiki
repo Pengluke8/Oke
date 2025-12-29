@@ -1,13 +1,12 @@
 REM Title: Open Link
-REM Author:	mrproxy
+REM Author: mrproxy
 REM Description: Opens Spotlight, prints the link, enters it.
-REM Target:	Apple iOS (iPhone, iPad)
-REM Version:	1.0
-REM Category:	Mobile-IOS
-REM Source: https://github.com/Mr-Proxy-source/BadUSB-Payloads
+REM Target: Apple iOS (iPhone, iPad)
+REM Version: 1.0
+REM Category: Mobile-IOS
 
 REM Put your link down there
-DEFINE https://forge-roblox.fandom.com/wiki/The_Forge_Roblox_Wiki
+DEFINE TARGET_URL https://forge-roblox.fandom.com/wiki/The_Forge_Roblox_Wiki
 
 DELAY 1500
 GUI h
