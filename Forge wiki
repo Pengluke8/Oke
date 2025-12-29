@@ -1,22 +1,15 @@
-REM Title: Open Link
-REM Author: mrproxy
-REM Description: Opens Spotlight, prints the link, enters it.
-REM Target: Apple iOS (iPhone, iPad)
-REM Version: 1.0
-REM Category: Mobile-IOS
+REM Title: Open Link (Flipper Zero)
+REM Author: mrproxy (adapted for Flipper Zero)
+REM Description: Opens iOS Spotlight and opens a URL
+REM Target: Apple iOS (iPhone / iPad)
+REM Version: 1.1
+REM Category: Mobile-iOS
 
-REM Put your link down there
-DEFINE TARGET_URL https://forge-roblox.fandom.com/wiki/The_Forge_Roblox_Wiki
-
-DELAY 1500
-GUI h
-DELAY 1000
+DELAY 2000
 GUI SPACE
-DELAY 250
-STRING TARGET_URL
-DELAY 70
-TAB
-DELAY 70
+DELAY 500
+STRING https://forge-roblox.fandom.com/wiki/The_Forge_Roblox_Wiki
+DELAY 300
 ENTER
-DELAY 150
+DELAY 300
 ENTER
